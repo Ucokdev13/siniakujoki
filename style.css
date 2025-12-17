@@ -580,4 +580,11 @@
         .fade-in.visible {
             opacity: 1;
             transform: translateY(0);
+
         }
+/* HAPUS HAMBURGER MENU DI MOBILE */
+@media (max-width: 768px) {
+    .navbar-toggler {
+        display: none !important;
+    }
+}
